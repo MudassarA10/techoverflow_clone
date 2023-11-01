@@ -1,0 +1,605 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header-box {
+    height: 100px;
+    background-color: #1b1b1b;
+    backdrop-filter: blur(14px);
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    background: transparent;
+
+}
+
+#logo-box {
+    width: 250px;
+    height: 70px;
+    background: transparent;
+    margin-left: 30px;
+
+
+}
+
+#logo {
+    text-align: center;
+    align-items: center;
+}
+
+#img-logo {
+    width: 178px;
+    height: 68px;
+    font-size: 70px;
+}
+
+#box {
+    text-decoration: none;
+    color: white;
+    font: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 50px;
+}
+
+#nav-content {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+/*....................section1*/
+.section {
+    width: 100%;
+    height: 668px;
+    background-color: #1b1b1b;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 300px;
+    padding-top: 100px;
+
+
+}
+
+#text {
+    height: 570px;
+    width: 473px;
+    padding-top: 130px;
+    padding-left: 80px;
+}
+
+#text-box {
+    width: 500px;
+    height: 100px;
+
+
+}
+
+#h2 {
+    color: white;
+    font-size: 50px;
+}
+
+#btn-box {
+    height: 50px;
+    width: 90px;
+}
+
+#btn {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(13, 138, 221);
+    width: 90px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+img {
+    height: 469px;
+    width: 433px;
+    background: transparent;
+    padding-top: 50px;
+}
+
+@media (max-width:1260px) {
+    .section {
+        display: flex;
+        gap: 250px;
+        width: 100%;
+    }
+
+    #h2 {
+        font-size: 40px;
+    }
+
+    img {
+        height: 400px;
+        width: 350px;
+
+    }
+
+
+}
+
+/************/
+@media (max-width:1120px) {
+    .section {
+        display: flex;
+        gap: 150px;
+        width: 100%;
+    }
+
+    #h2 {
+        font-size: 35px;
+    }
+
+    img {
+        height: 350px;
+        width: 350px;
+
+    }
+
+
+}
+
+@media (max-width:1020px) {
+    .section {
+        display: flex;
+        gap: 100px;
+        width: 100%;
+    }
+
+    #h2 {
+        font-size: 30px;
+    }
+
+    img {
+        height: 300px;
+        width: 300px;
+
+    }
+
+
+}
+
+@media (max-width:920px) {
+    .section {
+        display: flex;
+        gap: 20px;
+        width: 100%;
+    }
+
+    #h2 {
+        font-size: 30px;
+    }
+
+    img {
+        height: 310px;
+        width: 310px;
+
+    }
+
+
+}
+
+@media (max-width:880px) {
+    .section {
+        display: flex;
+        gap: 10px;
+        width: 100%;
+    }
+
+    #h2 {
+        font-size: 30px;
+    }
+
+    img {
+        height: 300px;
+        width: 300px;
+
+    }
+
+
+}
+
+@media (max-width:820px) {
+    .section {
+        display: flex;
+        width: 100%;
+    }
+
+    #h2 {
+        font-size: 30px;
+    }
+
+    img {
+        height: 300px;
+        width: 300px;
+
+    }
+
+    #text-box {
+        width: 100px;
+        height: 100px;
+
+
+    }
+
+    #btn {
+        margin-top: 0px;
+    }
+
+
+}
+
+
+/*....................section 2.............*/
+#section-2 {
+    width: 100%;
+    height: 809px;
+    background-color: black;
+    padding-top: 150px;
+
+}
+
+#sec2-text-box {
+    width: 1100px;
+    height: 180px;
+
+    margin-left: 150px;
+
+}
+
+#para {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+
+#emoji1 {
+    width: 263px;
+    height: 346px;
+
+}
+
+#emoji2 {
+    width: 263px;
+    height: 346px;
+
+
+}
+
+#emoji3 {
+    width: 263px;
+    height: 346px;
+
+}
+
+#sec2-emoji {
+    display: flex;
+    margin-left: 200px;
+    justify-content: space-evenly;
+}
+
+#emogi-pic1 {
+    height: 103px;
+    width: 77px;
+    background: transparent;
+}
+
+#heading h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+#emogi-p1 p {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #A19F95;
+    padding-top: 20px;
+
+}
+
+#img1 {
+    width: 103px;
+    height: 103px;
+}
+
+/*....................pic 2........*/
+#emogi-pic2 {
+    height: 103px;
+    width: 103px;
+    background: transparent;
+}
+
+#heading2 h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+#img2 {
+    width: 103px;
+    height: 103px;
+}
+
+#emogi-p2 p {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #A19F95;
+    padding-top: 20px;
+
+}
+
+/************************section 3***********/
+#section3 {
+    width: 100%;
+    height: 1385px;
+    background-color: #1d1d1d;
+    margin-top: 133px;
+
+}
+
+#main {
+    width: 1340px;
+    height: 1040px;
+    padding-left: 5px;
+}
+
+#course {
+    width: 1200px;
+    height: 520px;
+
+    margin-left: 90px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+#section3-h {
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-left: 80px;
+    font-size: 34px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#course1 {
+    width: 353px;
+    height: 514px;
+
+    border: 1px solid white;
+}
+
+#course1-pic {
+    width: 300px;
+    height: 300px;
+}
+
+#course1-pic img {
+    width: 300px;
+    height: 300px;
+
+}
+
+#pic1 h2 {
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#pic1-p p {
+    color: white;
+    /*font-size: 25px;*/
+    text-align: justify;
+}
+
+#course2 {
+    width: 353px;
+    height: 514px;
+
+    border: 1px solid white;
+}
+
+#course2-pic {
+    width: 300px;
+    height: 300px;
+}
+
+#course2-pic img {
+    width: 300px;
+    height: 300px;
+
+}
+
+#pic2 h2 {
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#pic2-p p {
+    color: white;
+    /* font-size: 25px;*/
+    text-align: justify;
+}
+
+
+#course3 {
+    width: 353px;
+    height: 514px;
+    border: 1px solid white;
+
+}
+
+#course3-pic {
+    width: 300px;
+    height: 300px;
+}
+
+#course3-pic img {
+    width: 300px;
+    height: 300px;
+
+}
+
+#pic3 h2 {
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#pic3-p p {
+    color: white;
+    /*font-size: 24px;*/
+    text-align: justify;
+}
+
+
+/*/********************/
+#course-2 {
+    width: 1200px;
+    height: 520px;
+    padding-top: 20px;
+
+    margin-left: 90px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+#content-sec-2 {
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 22px;
+    text-align: justify;
+}
+
+/*.....................footer............*/
+#footer {
+    width: 100%;
+    height: 420px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#logo-info {
+    width: 300px;
+    height: 350px;
+
+}
+
+#logo-info a img {
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+#social {
+    display: flex;
+
+}
+
+#link a img {
+    width: 80px;
+    height: 80px;
+}
+
+#insta a img {
+    width: 80px;
+    height: 80px;
+}
+
+#facebook a img {
+    width: 80px;
+    height: 80px;
+}
+
+
+#address {
+    width: 300px;
+    height: 350px;
+
+}
+
+#site-map {
+    width: 300px;
+    height: 350px;
+
+}
+
+#add h2 {
+    color: white;
+    padding-left: 30px;
+    font-size: 35px;
+    padding-top: 50px;
+    margin-bottom: 40px;
+
+}
+
+#email a {
+    color: white;
+    font-size: 20px;
+    padding-left: 30px;
+    text-decoration: none;
+
+}
+
+#ad address {
+    color: white;
+    font-size: 20px;
+    padding-left: 30px;
+    margin-top: 40px;
+}
+
+#ad a {
+    text-decoration: none;
+}
+
+#site h2 {
+    color: white;
+    padding-left: 30px;
+    margin-top: 50px;
+    font-size: 35px;
+    margin-bottom: 20px;
+
+}
+
+#site-data a {
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 20px;
+    justify-content: space-between;
+    line-height: 30px;
+}
+
+/*****************media queries**********/
+
+/*section1*/
